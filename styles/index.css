@@ -194068,3 +194068,19 @@ form textarea::placeholder {
             animation: bounce 1s infinite;
   }
 }
+
+
+.swiper {
+  height: 300px;
+  margin: 0px 0px 140px;
+}
+
+.swiper-slide img {
+  height: 100%;
+  margin: auto;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: #78350f;
+}
