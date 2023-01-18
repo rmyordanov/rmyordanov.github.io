@@ -22,6 +22,10 @@ module.exports = {
         "10xl": "5rem",
         "20xl": "10rem",
       },
+
+      colors: {
+        link: "#78350F",
+      },
     },
   },
   variants: {
