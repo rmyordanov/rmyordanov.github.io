@@ -194082,5 +194082,5 @@ form textarea::placeholder {
 
 .swiper-button-prev,
 .swiper-button-next {
-  color: #78350f;
+  color: #78350f !important;
 }
