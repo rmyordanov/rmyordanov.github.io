@@ -194070,7 +194070,7 @@ form textarea::placeholder {
 }
 
 
-.swiper {
+.swiper, .swiperTwo {
   height: 300px;
   margin: 0px 0px 140px;
 }

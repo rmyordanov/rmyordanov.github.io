@@ -346,6 +346,34 @@
 
   </section>
 
+   <!-- Slider main container -->
+   <div class="text-center">
+   <h2 class="inline-block text-3xl lg:text-4xl font-semibold uppercase text-gray-900 mb-18">WordPress Projects</h2>
+   </div>
+<div class="swiper swiperTwo">
+  
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide"><a href="https://nolayouththeatre.com/" target="_blank"><img src="./images/nolayouththeatre.jpg" alt="Nola Youth Theatre Website"></a></div>
+    <div class="swiper-slide"><a href="https://paulmilhamhypnotherapy.co.uk/" target="_blank"><img src="./images/paulmilhamhypnotherapist.jpg" alt="Hypnotherapist Website"></a></div>
+    <div class="swiper-slide"><a href="https://angelwalkers.co.uk/" target="_blank"><img src="./images/angelwalkers.jpg" alt="Angel Walkers Website"></a></div>
+    <div class="swiper-slide"><a href="https://thebeautytherapies.co.uk/" target="_blank"><img src="./images/thebeautytherapist.jpg" alt="Beauty Therapist Website"></a></div>
+    <div class="swiper-slide"><a href="https://bluebirdinteriors.co.uk/" target="_blank"><img src="./images/bluebirdinteriors.jpg" alt="Bluebird Interiors Website"></a></div>
+    
+    
+  </div>
+ 
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+  
+</div>
+
+  
+
   <!-- Start of CTA section -->
   <section class="py-24 shadow-inner  bg-yellow-100">
     <h2 class="text-center font-semibold text-xl lg:text-2xl mb-12 text-gray-900">I would love to hear from you.</h2>
@@ -418,6 +446,28 @@
   breakpoints: {
     '992': {slidesPerView: 3}
   },
+  
+  // Navigation arrows
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+
+  
+});
+
+const swiperTwo = new Swiper(".swiperTwo", {
+  // Optional parameters
+  
+  loop: true,
+
+  autoplay: {
+    delay: 5000,
+  },
+
+  slidesPerView: 1,
+
+  
   
   // Navigation arrows
   navigation: {
